@@ -15,6 +15,7 @@
 		A7EB7AF01C80227900067864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7EB7AEE1C80227900067864 /* LaunchScreen.storyboard */; };
 		A7EB7AFB1C80227900067864 /* gitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EB7AFA1C80227900067864 /* gitDemoTests.m */; };
 		A7EB7B061C80227900067864 /* gitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EB7B051C80227900067864 /* gitDemoUITests.m */; };
+		A7EB7B151C8025F100067864 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EB7B141C8025F100067864 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A7EB7B011C80227900067864 /* gitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7EB7B051C80227900067864 /* gitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitDemoUITests.m; sourceTree = "<group>"; };
 		A7EB7B071C80227900067864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7EB7B131C8025F100067864 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A7EB7B141C8025F100067864 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				A7EB7AE31C80227900067864 /* AppDelegate.h */,
 				A7EB7AE41C80227900067864 /* AppDelegate.m */,
+				A7EB7B131C8025F100067864 /* Person.h */,
+				A7EB7B141C8025F100067864 /* Person.m */,
 				A7EB7AE61C80227900067864 /* ViewController.h */,
 				A7EB7AE71C80227900067864 /* ViewController.m */,
 				A7EB7AE91C80227900067864 /* Main.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				A7EB7AE81C80227900067864 /* ViewController.m in Sources */,
 				A7EB7AE51C80227900067864 /* AppDelegate.m in Sources */,
+				A7EB7B151C8025F100067864 /* Person.m in Sources */,
 				A7EB7AE21C80227900067864 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
